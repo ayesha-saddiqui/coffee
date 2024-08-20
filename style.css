@@ -1,0 +1,87 @@
+body {
+}
+header {
+  background-image: url(./images/black-coffee.webp);
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(240, 171, 171, 0.4);
+}
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 15px 100px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: sans-serif;
+  transition: 4s ease;
+}
+.navbar ul li a:hover {
+  background-color: chocolate;
+  border-radius: 2px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+.center h1 {
+  color: white;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center h2 {
+  color: white;
+  font-weight: bold;
+  width: 885px;
+  margin-top: 24px;
+  margin-bottom: -8px;
+  text-align: center;
+}
+.center .buttons {
+  margin: 35px 280px;
+}
+.buttons button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: chocolate;
+  background-color: white;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: 4s ease;
+}
+.buy_btn {
+  margin-left: 16px;
+}
+.buttons button:hover {
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+.dfrnt {
+  color: chocolate;
+}
